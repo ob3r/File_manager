@@ -1,7 +1,7 @@
 import os
 import shutil
 from config import WORKING_DIRECTORY
-from modules.navigation import current_directory
+from navigation import current_directory
 
 def create_file(filename):
     """Создать файл в текущей директории"""

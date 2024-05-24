@@ -1,6 +1,6 @@
 import os
 from config import WORKING_DIRECTORY
-from modules.navigation import current_directory
+from navigation import current_directory
 
 def create_directory(dirname):
     """Создать директорию в текущей директории"""
