@@ -1,4 +1,4 @@
-import navigation, file_operations, directory_operations
+import navigation, file_operations, directory_operations, help
 
 
 def main():
@@ -71,10 +71,13 @@ def main():
             if args:
                 print(directory_operations.delete_directory(args[0]))
             else:
-                print("Usage: rmdir <directory>")
+                print(f"Usage: rmdir <directory>")
         elif cmd == "exit":
             # Выход из программы
             break
+        elif cmd == "help":
+            # Вывод справки
+            help.help()
         else:
             print("Unknown command.")
 
