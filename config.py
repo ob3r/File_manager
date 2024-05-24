@@ -1,2 +1,2 @@
 # config.py
-WORKING_DIRECTORY = "/path/to/working/directory"
+WORKING_DIRECTORY = r"C:\Users\Admin\PycharmProjects\File_manager"
